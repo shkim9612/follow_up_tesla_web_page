@@ -1,0 +1,78 @@
+.footer {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  line-height: 200%;
+}
+
+.section.fp-auto-height div{
+  position: inline;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  z-index: 100;
+  bottom: 0;
+  width: 100%;
+  line-height: 200%;
+}
+
+.section.fp-auto-height div div {
+  padding-bottom: 15px;
+}
+
+.footer div {
+  position: static;
+  z-index: 100;
+  bottom: 0;
+  width: 60%;
+}
+
+.section.fp-auto-height div div ul{
+  width: 90%;
+  max-width: 570px;
+  margin: 0.5rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.footer div ul {
+  width: 90%;
+  max-width: 570px;
+  margin: 2rem auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.section.fp-auto-height div div ul li,
+.footer div ul li {
+  margin-top: 1rem;
+  text-transform: capitalize;
+  font-weight: 400;
+  text-align: center;
+}
+
+.section.fp-auto-height div div ul li a,
+.footer div ul li a {
+  color: #D0D1D2;
+  font-size: 12px;
+}
+
+.section.fp-auto-height div div ul p,
+.footer div ul p {
+  color: #e2e3e3;
+  font-size: 10px;
+  text-align: center;
+}
+
+.section.fp-auto-height div div ul p a,
+.footer div ul p a {
+  color: #e2e3e3;
+  font-size: 10px;
+  text-decoration: underline;
+}
